@@ -23,3 +23,7 @@ puts grocery_list[1]
 #Sorts the list in alphabetical order
 grocery_list.sort
 list(grocery_list)
+
+#removes salmon from the list
+grocery_list.delete("salmon")
+list(grocery_list)
