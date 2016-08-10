@@ -21,7 +21,7 @@ puts grocery_list.include?("bananas") ? "You don\'t need bananas today" : "You n
 puts grocery_list[1]
 
 #Sorts the list in alphabetical order
-grocery_list.sort
+grocery_list.sort!
 list(grocery_list)
 
 #removes salmon from the list
