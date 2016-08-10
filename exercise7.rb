@@ -22,3 +22,13 @@ puts students.keys
 # increase cohort size and display it
 students.each.map{ |k, v| students[k] = (v * 1.05).to_i }
 display(students)
+
+# delete cohort2
+students.delete(:cohort2)
+
+display(students)
+
+# calculate the total amount of students in all cohort
+total = 0
+students.each { |k, v| total = total + v }
+puts "There are #{total} students in all cohorts"
