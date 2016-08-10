@@ -18,3 +18,7 @@ students[:cohort4] = 43
 
 # display cohort names
 puts students.keys
+
+# increase cohort size and display it
+students.each.map{ |k, v| students[k] = (v * 1.05).to_i }
+display(students)
